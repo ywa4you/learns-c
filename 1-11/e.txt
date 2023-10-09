@@ -1,0 +1,18 @@
+>How would you test the word count program?
+
+I would think of special scenarios like a doubling characters that are
+being tested for. Additionally, the output of the program in boundary
+conditions such as no to very little input, or a lot of input.
+
+>What kinds of input are most likely to uncover bugs if there are any?
+
+Technically, random strings of characters. However in that case you
+would need to have already working program(s) to verify the results of
+your tests since it would be very cumbersome for a human to do it by
+hand. Sensible input such as texts would produce suboptimal results in
+the bug-testing process due to the low amount of obscure scenarios.
+Obvious bugs would be found far prior using simple strings of
+characters to the commitment to a large scale testing. However,
+depending on the size of the texts used, a proportional amount of
+certainty should be obtained regarding the usability of the program due
+to the law of large numbers, nevermind the bugs in such case.

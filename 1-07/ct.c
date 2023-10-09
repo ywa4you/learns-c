@@ -4,7 +4,8 @@
  * I've done both, as I was unsure of "which" value exercise 1-7 refered to */
 main()
 {
-    putchar(EOF);
-    printf("\n");
+    printf("value of EOF as a character:\n");
+    printf("%c\n", EOF);
+    printf("value of EOF as an integer:\n");
     printf("%d\n", EOF);
 }
