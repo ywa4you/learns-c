@@ -6,7 +6,8 @@ main()
 {
     int c, lc;
 
-    lc = EOF;
+    lc = EOF; /* last character */
+
     while ((c = getchar()) != EOF)
     {
         if (c != lc || c != ' ')
