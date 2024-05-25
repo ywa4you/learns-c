@@ -9,7 +9,7 @@
                      * ends (inclusive) */
 
 /* print a histogram of the frequencies of different characters in
- * it's input */
+   it's input */
 main()
 {
     int c, i, j;
