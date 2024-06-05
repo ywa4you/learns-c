@@ -8,10 +8,10 @@ void copy(char to[], char from[]);
 /* print the longest input line */
 main()
 {
-    int len;    /* current line length */
-    int max;    /* maximum length seen so far */
+    int len;                /* current line length */
+    int max;                /* maximum length seen so far */
     char line[MAXLINE];     /* current input line */
-    char longest[MAXLINE]; /* longest line saved here */
+    char longest[MAXLINE];  /* longest line saved here */
 
     max = 0;
     while ((len = getline(line, MAXLINE)) > 0)
@@ -20,7 +20,7 @@ main()
             copy(longest, line);
     }
 
-    if (max > 0) /* there was a line */
+    if (max > 0)            /* there was a line */
         printf("%s\n", longest);
     return 0;
 }
